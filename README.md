@@ -69,7 +69,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 1. Clone the repository: "git@github.com:paigepreziosi/techBLOG.git
 2. Install the necessary dependencies by running the following command: "npm install"
 3. Create a .env file in the root directory and add the following:
-4. DB_NAME='techBLOG_db'
+4. DB_NAME='tech_blog_db'
 5. DB_USER='root'
 7. DB_PW='Your MySQL password'
 8. Run the following command to seed the database: "npm run seed"

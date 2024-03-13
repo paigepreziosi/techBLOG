@@ -1,88 +1,79 @@
-/* General page styles */
-
 header {
-    font-family: "Jomolhari", serif;
-  }
-  
-  body {
-    background-color: white;
-  }
-  
-  h1 {
-    font-family: "Jomolhari", serif;
-    background-color: yellowgreen;
-    color: black;
-    padding: 16px;
-    margin-bottom: 5px;
-  }
-  
-  #blogName {
-    color: lightblue;
-  }
-  
-  main {
-    font-family: "Jomolhari", serif;
-    margin-top: -5px;
-    background-color: white;
-  }
-  
-  .homepage-main {
-    margin-top: 34px;
-  }
-  
-  .user-name {
-    background-color: gray;
-  }
-  
-  .blogPost-main {
-    margin-top: 34px;
-  }
-  
-  /* Nav styles */
-  
-  .navBar {
-    background-color: lightblue;
-  }
-  
-  #logout {
-    background-color: gray;
-  }
-  
-  /* Input/textarea styles */
-  
-  #titleInput,
-  #bodyInput,
-  #comment,
-  #email-login,
-  #password-login,
-  #name-signup,
-  #email-signup,
-  #password-signup {
-    background-color: #e5eaf5;
-  }
-  
-  /* Button styles */
-  
-  .btn {
-    background-color: black;
-  }
-  
-  /* Card styles */
-  
-  .card-header {
-    background-color: #e5eaf5;
-  }
-  
-  .card-body {
-    background-color: #aaf0d1;
-  }
-  
-  .card {
-    background-color: #aaf0d1;
-  }
-  
-  .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
-    transition: all 0.3s ease;
-  }
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  background-color: #a28089;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  color: black;
+  padding: 16px;
+  margin-bottom: 5px;
+}
+
+#blogName {
+  color: black;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -5px;
+  background-color: white;
+}
+
+.homepage-main {
+  margin-top: 34px;
+}
+
+.user-name {
+  background-color: pink;
+}
+
+.blogPost-main {
+  margin-top: 34px;
+}
+
+
+.navBar {
+  background-color: pink;
+}
+
+#logout {
+  background-color: grey;
+}
+
+#titleInput,
+#bodyInput,
+#comment,
+#email-login,
+#password-login,
+#name-signup,
+#email-signup,
+#password-signup {
+  background-color: grey;
+}
+
+
+.btn {
+  background-color: pink;
+}
+
+
+.card-header {
+  background-color: pink;
+}
+
+.card-body {
+  background-color: grey;
+}
+
+.card {
+  background-color: grey;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
